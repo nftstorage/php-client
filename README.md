@@ -1,4 +1,4 @@
-# OpenAPIClient-php
+# NFTStorage
 
 # API Reference
 
@@ -37,7 +37,7 @@ Download the files and include `autoload.php`:
 
 ```php
 <?php
-require_once('/path/to/OpenAPIClient-php/vendor/autoload.php');
+require_once('/path/to/NFTStorage/vendor/autoload.php');
 ```
 
 ## Getting Started

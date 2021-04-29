@@ -1,6 +1,6 @@
 # NFTStorage\NFTStorageAPI
 
-All URIs are relative to https://nft.storage/api.
+All URIs are relative to https://api.nft.storage.
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 ## `callList()`
 
 ```php
-callList(): \NFTStorage\Model\ListResponse
+callList($before, $limit): \NFTStorage\Model\ListResponse
 ```
 
 List all stored files
@@ -35,9 +35,11 @@ $apiInstance = new NFTStorage\Api\NFTStorageAPI(
     new GuzzleHttp\Client(),
     $config
 );
+$before = 2020-07-27T17:32:28Z; // \DateTime | Return results created before provided timestamp
+$limit = 10; // int | Max records to return
 
 try {
-    $result = $apiInstance->callList();
+    $result = $apiInstance->callList($before, $limit);
     print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling NFTStorageAPI->callList: ', $e->getMessage(), PHP_EOL;
@@ -46,7 +48,10 @@ try {
 
 ### Parameters
 
-This endpoint does not need any parameter.
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **before** | **\DateTime**| Return results created before provided timestamp | [optional]
+ **limit** | **int**| Max records to return | [optional] [default to 10]
 
 ### Return type
 

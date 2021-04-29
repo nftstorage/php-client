@@ -16,7 +16,6 @@ docs/Model/Links.md
 docs/Model/LinksFile.md
 docs/Model/ListResponse.md
 docs/Model/NFT.md
-docs/Model/NFTDeals.md
 docs/Model/Pin.md
 docs/Model/PinStatus.md
 docs/Model/UnauthorizedErrorResponse.md
@@ -39,7 +38,6 @@ lib/Model/LinksFile.php
 lib/Model/ListResponse.php
 lib/Model/ModelInterface.php
 lib/Model/NFT.php
-lib/Model/NFTDeals.php
 lib/Model/Pin.php
 lib/Model/PinStatus.php
 lib/Model/UnauthorizedErrorResponse.php
@@ -58,7 +56,6 @@ test/Model/GetResponseTest.php
 test/Model/LinksFileTest.php
 test/Model/LinksTest.php
 test/Model/ListResponseTest.php
-test/Model/NFTDealsTest.php
 test/Model/NFTTest.php
 test/Model/PinStatusTest.php
 test/Model/PinTest.php

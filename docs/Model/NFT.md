@@ -11,6 +11,6 @@ Name | Type | Description | Notes
 **scope** | **string** | Name of the JWT token used to create this NFT. | [optional] [default to 'default']
 **pin** | [**\NFTStorage\Model\Pin**](Pin.md) |  | [optional]
 **files** | **object[]** | Files in the directory (only if this NFT is a directory). | [optional]
-**deals** | [**\NFTStorage\Model\NFTDeals**](NFTDeals.md) |  | [optional]
+**deals** | [**\NFTStorage\Model\Deal[]**](Deal.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
